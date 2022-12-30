@@ -40,6 +40,7 @@
             // 
             // button1
             // 
+            this.button1.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.button1.Location = new System.Drawing.Point(177, 247);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(75, 23);
@@ -61,24 +62,27 @@
             // label1
             // 
             this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.label1.Location = new System.Drawing.Point(89, 149);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(50, 15);
+            this.label1.Size = new System.Drawing.Size(54, 15);
             this.label1.TabIndex = 2;
             this.label1.Text = "Usuario:";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.label2.Location = new System.Drawing.Point(97, 185);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(42, 15);
+            this.label2.Size = new System.Drawing.Size(46, 15);
             this.label2.TabIndex = 3;
             this.label2.Text = "Senha:";
             // 
             // txtUsuarioL
             // 
-            this.txtUsuarioL.Location = new System.Drawing.Point(149, 141);
+            this.txtUsuarioL.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txtUsuarioL.Location = new System.Drawing.Point(149, 147);
             this.txtUsuarioL.Name = "txtUsuarioL";
             this.txtUsuarioL.Size = new System.Drawing.Size(133, 23);
             this.txtUsuarioL.TabIndex = 4;
@@ -86,7 +90,8 @@
             // 
             // txtSenhaL
             // 
-            this.txtSenhaL.Location = new System.Drawing.Point(149, 184);
+            this.txtSenhaL.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txtSenhaL.Location = new System.Drawing.Point(149, 183);
             this.txtSenhaL.Name = "txtSenhaL";
             this.txtSenhaL.Size = new System.Drawing.Size(133, 23);
             this.txtSenhaL.TabIndex = 5;

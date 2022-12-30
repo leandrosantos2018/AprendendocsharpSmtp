@@ -4,7 +4,7 @@ namespace AprendendocsharpSmtp
 {
     public partial class Login : Form
     {
-        Thread nt;
+        Thread? nt;
         public Login()
         {
             InitializeComponent();
@@ -24,6 +24,14 @@ namespace AprendendocsharpSmtp
                
                 nt.Start();
 
+            }
+            else if (txtUsuarioL.Text == "" && txtSenhaL.Text == "")
+            {
+                MessageBox.Show("Favor informa usuario ou Senha!!");
+            }
+            else
+            {
+                MessageBox.Show("Acesso negado Usuario ou senha invalido");
             }
         }
 
