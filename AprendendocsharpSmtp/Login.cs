@@ -1,3 +1,4 @@
+using AprendendocsharpSmtp.Models;
 using Microsoft.VisualBasic;
 using System.Threading;
 namespace AprendendocsharpSmtp
@@ -37,7 +38,7 @@ namespace AprendendocsharpSmtp
 
         private void novoform()
         {
-            Application.Run(new Frm_Telaprincipal());
+            Application.Run(new gerenciador());
         }
     }
 }
